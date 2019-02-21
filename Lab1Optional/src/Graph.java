@@ -167,5 +167,34 @@ public class Graph {
         }
     }
 
+
+void dfs(int nod,int[] visited)
+        {
+            visited[nod]=1;
+            int contor;
+            for(contor=0;contor<this.n;contor++)
+            {
+                if(matrix[nod][contor]==1 && visited[contor]==0)
+                    dfs(contor,visited);
+            }
+            
+        }
+        String isConnected()
+        {
+            int[] visited=new int [this.n];
+            int contor=0, componenteConexe=0;
+            Arrays.fill(visited,0);
+            for(contor=0;contor<this.n;contor++)
+                if(visited[contor]==0)
+                {
+                    dfs(contor,visited);
+                    componenteConexe++;
+                }
+            if(componenteConexe==1)
+                return "Graful este conex, deci nu are componente conexe";
+            else 
+                return "Graful are "+(componenteConexe-1)+" componente conexe";
+        }
+
 }
 
