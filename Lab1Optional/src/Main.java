@@ -20,6 +20,9 @@ public class Main {
                 //graph.displayMatrix();
                 graph.degrees();
                 graph.checkSum();
+                if (graph.getType().equals("random")) {
+                    graph.isConnected();
+                }
                 long end = System.nanoTime();
                 long total = end - start;
                 System.out.println(total);
@@ -30,6 +33,9 @@ public class Main {
                 graph.displayMatrix();
                 graph.degrees();
                 graph.checkSum();
+                if (graph.getType().equals("random")) {
+                    graph.isConnected();
+                }
             }
             // daca primesti 2 argumente
         } else if (args.length == 2) {
@@ -62,6 +68,9 @@ public class Main {
                         //graph.displayMatrix();
                         graph.degrees();
                         graph.checkSum();
+                        if (graph.getType().equals("random")) {
+                            graph.isConnected();
+                        }
                         long end = System.nanoTime();
                         long total = end - start;
                         System.out.println(total);
@@ -72,6 +81,9 @@ public class Main {
                         graph.displayMatrix();
                         graph.degrees();
                         graph.checkSum();
+                        if (graph.getType().equals("random")) {
+                            graph.isConnected();
+                        }
                     }
 
                 } else {
@@ -98,6 +110,8 @@ public class Main {
             //graph.displayMatrix();
             graph.degrees();
             graph.checkSum();
+            if (graph.getType().equals("random"){
+           graph.isConnected();
             long end = System.nanoTime();
             long total = end - start;
             System.out.println(total);
@@ -108,6 +122,8 @@ public class Main {
             graph.displayMatrix();
             graph.degrees();
             graph.checkSum();
+            if (graph.getType().equals("random"){
+           graph.isConnected();
         }
         */
     }

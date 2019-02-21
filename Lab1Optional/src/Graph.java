@@ -18,12 +18,12 @@ public class Graph {
         // scanner.nextLine();
     }
 
-    public int getN(){
+    public int getN() {
         return n;
     }
 
 
-    public void setN(int n){
+    public void setN(int n) {
         this.n = n;
     }
 
@@ -34,7 +34,7 @@ public class Graph {
         scanner.close();
     }
 
-    public void setType(String type){
+    public void setType(String type) {
         this.type = type;
     }
 
@@ -123,7 +123,7 @@ public class Graph {
     }
 
     public void degrees() {
-        int [] counter = new int [n];
+        int[] counter = new int[n];
         int count = 0;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
@@ -136,22 +136,22 @@ public class Graph {
 
         Arrays.sort(counter);
 
-        System.out.println('\u0394' + "(G) = " + counter[n-1]);
-        System.out.println("\u0394".toLowerCase() + "(G) = " +counter[0]);
+        System.out.println('\u0394' + "(G) = " + counter[n - 1]);
+        System.out.println("\u0394".toLowerCase() + "(G) = " + counter[0]);
 
         int first = counter[0];
         boolean flag = true;
         for (int i = 1; i < n; i++)
             if (counter[i] != first)
                 flag = false;
-            if (flag) {
-                System.out.println("The graph is a regular graph.");
-            } else {
-                System.out.println("The graph is NOT a regular graph.");
-            }
+        if (flag) {
+            System.out.println("The graph is a regular graph.");
+        } else {
+            System.out.println("The graph is NOT a regular graph.");
+        }
     }
 
-    public void checkSum(){
+    public void checkSum() {
         int count = 0;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
@@ -160,7 +160,7 @@ public class Graph {
             }
         }
 
-        if (count == 2*this.m){
+        if (count == 2 * this.m) {
             System.out.println("Yes, the sum of degrees is equal to 2*m.");
         } else {
             System.out.println("No, the sum of degrees is NOT equal to 2*m.");
@@ -168,33 +168,30 @@ public class Graph {
     }
 
 
-void dfs(int nod,int[] visited)
-        {
-            visited[nod]=1;
-            int contor;
-            for(contor=0;contor<this.n;contor++)
-            {
-                if(matrix[nod][contor]==1 && visited[contor]==0)
-                    dfs(contor,visited);
+    void dfs(int nod, int[] visited) {
+        visited[nod] = 1;
+        int contor;
+        for (contor = 0; contor < this.n; contor++) {
+            if (matrix[nod][contor] == 1 && visited[contor] == 0)
+                dfs(contor, visited);
+        }
+
+    }
+
+    String isConnected() {
+        int[] visited = new int[this.n];
+        int contor = 0, connectedComponents = 0;
+        Arrays.fill(visited, 0);
+        for (contor = 0; contor < this.n; contor++)
+            if (visited[contor] == 0) {
+                dfs(contor, visited);
+                connectedComponents++;
             }
-            
-        }
-        String isConnected()
-        {
-            int[] visited=new int [this.n];
-            int contor=0, componenteConexe=0;
-            Arrays.fill(visited,0);
-            for(contor=0;contor<this.n;contor++)
-                if(visited[contor]==0)
-                {
-                    dfs(contor,visited);
-                    componenteConexe++;
-                }
-            if(componenteConexe==1)
-                return "Graful este conex, deci nu are componente conexe";
-            else 
-                return "Graful are "+(componenteConexe-1)+" componente conexe";
-        }
+        if (connectedComponents == 1)
+            return "There is just one connected component.";
+        else
+            return "The graph has " + (connectedComponents - 1) + " connected components.";
+    }
 
 }
 
