@@ -38,6 +38,10 @@ public class Graph {
         this.type = type;
     }
 
+    public String getType(){
+        return this.type;
+    }
+
     public void afis() {
         System.out.println(n);
         System.out.println(type);
