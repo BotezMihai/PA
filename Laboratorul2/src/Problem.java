@@ -35,5 +35,10 @@ void setStudents(Student s1, Student s2, Student s3,Student s4)
 	  
 	  
   }
-  
+
+@Override
+public String toString() {
+	return "Problem [students=" + students + "]";
+}
+   
 }

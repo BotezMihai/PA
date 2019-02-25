@@ -15,8 +15,9 @@ public LocalDate getDeadline() {
 public void setDeadline(LocalDate localDate) {
 	this.deadline = localDate;
 }
-  @Override
+@Override
 public String toString() { 
     return name+" "+deadline;
-} 
+}   
+
 }

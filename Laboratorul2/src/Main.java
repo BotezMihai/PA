@@ -16,8 +16,8 @@ public class Main {
         System.out.println(s1.toString());
         Problem problem = new Problem();
         problem.setStudents(s1, s2, s3, s4);
+        problem.getStudents();
         System.out.println(problem);
-        
 	}
 
 }

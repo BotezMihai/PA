@@ -9,4 +9,7 @@ public class Application extends Project {
 	setDeadline(localDate);
 	this.lang=lang;	
 	}
+	public String toString() { 
+	    return name+" "+deadline+" "+lang;
+	} 
 }
