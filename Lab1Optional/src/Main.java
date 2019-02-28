@@ -99,31 +99,6 @@ public class Main {
         // mai sus is else-urile in caz ca ba nu e impar ba nu a introdus ceva cum trebuie
         // mai jos e codu cum era inainte
 
-
-        /*
-        graph.generateN();
-        if (graph.getN() > 10_000) {
-            long start = System.nanoTime();
-            graph.generateType();
-            graph.afis();
-            graph.generateMatrix();
-            //graph.displayMatrix();
-            graph.degrees();
-            graph.checkSum();
-
-            long end = System.nanoTime();
-            long total = end - start;
-            System.out.println(total);
-        } else {
-            graph.generateType();
-            graph.afis();
-            graph.generateMatrix();
-            graph.displayMatrix();
-            graph.degrees();
-            graph.checkSum();
-
-        }
-        */
     }
 
 
