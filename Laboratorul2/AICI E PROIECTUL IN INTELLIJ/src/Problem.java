@@ -41,15 +41,13 @@ public class Problem {
         return "Problem [students=" + students + "]";
     }
 
-    public ArrayList getProjects(){
-        ArrayList<Project> projectsList = new ArrayList<>();
+    public ArrayList<Project> getProjects() {
+        // void getProjects(){
+       /* ArrayList<Project> projectsList = new ArrayList<>();
         Student auxiliarStudent = students.get(0);
-       // ArrayList<Project> auxiliarProjects = auxiliarStudent.getPreferences();
         ArrayList<Project> auxiliarProjects = (ArrayList)auxiliarStudent.getPreferences().clone();
         for (int i = 0; i < students.size(); i++){
             auxiliarStudent = students.get(i);
-
-            //System.arraycopy(auxiliarStudent.getPreferences(),0,auxiliarProjects,0,auxiliarStudent.getNrPreferences());
             auxiliarProjects=(ArrayList)auxiliarStudent.getPreferences().clone();
             for (int j = 0; j < auxiliarProjects.size(); j++){
                 if (projectsList.indexOf(auxiliarProjects.get(i)) == -1){
@@ -57,8 +55,30 @@ public class Problem {
                 }
             }
         }
+       // System.out.println("Sunt "+students.size());
+
         projectsList.removeIf(Objects::isNull);
         return projectsList;
+        */
+        //versiunea mea
+        ArrayList<Project> projectsList = new ArrayList<Project>();
+        Student auxiliarStudent = students.get(0);
+        projectsList.addAll(auxiliarStudent.getPreferences());
+
+        int i, j;
+        for (i = 0; i < students.size(); i++) {
+            auxiliarStudent = students.get(i);
+            ArrayList<Project> tempPref=auxiliarStudent.getPreferences();
+            for(j=0;j<tempPref.size();j++)
+            {
+                if(projectsList.indexOf(tempPref.get(j))==-1)
+                {
+                    projectsList.add(tempPref.get(j));
+                }
+            }
+
+        }
+           return projectsList;
     }
 
 }
