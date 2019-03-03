@@ -23,6 +23,7 @@ public class Main {
 //        verified that i cannot add the same student
         problem.getStudents();
         System.out.println(problem);
+
         ArrayList<Project> projectsList = new ArrayList<Project>();
         projectsList=problem.getProjects();
        // System.out.println("The projects are "+projectsList);
