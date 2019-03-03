@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.ArrayList;
-
+import java.util.Iterator;
 public class Main {
 
     public static void main(String[] args) {
@@ -17,13 +17,19 @@ public class Main {
         System.out.println(s1.toString());
         Problem problem = new Problem();
         problem.setStudents(s1, s2, s3, s4);
-//        problem.setStudents(s1);
+//     problem.setStudents(s1);
 //        verified that i cannot add the same student
         problem.getStudents();
         System.out.println(problem);
-
         ArrayList<Project> projectsList = problem.getProjects();
-        System.out.println(projectsList);
+       // System.out.println("The projects are "+projectsList);
+        System.out.println(projectsList.size());
+        Iterator it=projectsList.iterator();
+        while(it.hasNext())
+        {
+            Object element=it.next();
+            System.out.print(element);
+        }
 
     }
 

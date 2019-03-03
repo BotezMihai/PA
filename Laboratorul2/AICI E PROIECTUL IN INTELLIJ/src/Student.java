@@ -1,7 +1,11 @@
+import java.util.ArrayList;
+
+
+
 public class Student {
     private String name;
     private int yearOfStudy;
-    private Project[] preference;
+    private ArrayList<Project> preference=new ArrayList<Project>();
     private Project enrollment;
     private int nrPreferences;
 
@@ -9,25 +13,33 @@ public class Student {
         this.name = name;
         yearOfStudy = year;
         nrPreferences = 0;
-        preference = new Project[100];
+
 
     }
 
     void setPreferences(Application a) {
-        preference[nrPreferences] = a;
-        nrPreferences++;
+        preference.add(a);
 
     }
 
     void setPreferences(Essay e) {
-        preference[nrPreferences] = e;
-        nrPreferences++;
+        preference.add(e);
     }
 
-    Project[] getPreferences(){
+    /*void getPreferences(){
+
+
+        ListIterator it = preference.listIterator();
+        while(it.hasNext())
+        {
+            Project project=(Project)it.next();
+            System.out.println(project.getName());
+        }
+    }
+    */
+    ArrayList<Project> getPreferences(){
         return this.preference;
     }
-
     /* should be called showPreferences
     void getPreferences() {
         int i;
@@ -42,7 +54,7 @@ public class Student {
      * added getNrPreferences for using in getProjects from Problem.java
     */
      public int getNrPreferences(){
-        return this.nrPreferences;
+        return  preference.size();
     }
 
     public String getName() {

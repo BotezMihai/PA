@@ -44,16 +44,16 @@ public class Problem {
     public ArrayList getProjects(){
         ArrayList<Project> projectsList = new ArrayList<>();
         Student auxiliarStudent = students.get(0);
-        Project[] auxiliarProjects = auxiliarStudent.getPreferences();
-
+       // ArrayList<Project> auxiliarProjects = auxiliarStudent.getPreferences();
+        ArrayList<Project> auxiliarProjects = (ArrayList)auxiliarStudent.getPreferences().clone();
         for (int i = 0; i < students.size(); i++){
             auxiliarStudent = students.get(i);
 
-            System.arraycopy(auxiliarStudent.getPreferences(),0,auxiliarProjects,0,auxiliarStudent.getNrPreferences());
-
-            for (int j = 0; j < auxiliarProjects.length; j++){
-                if (projectsList.indexOf(auxiliarProjects[i]) == -1){
-                    projectsList.add(auxiliarProjects[i]);
+            //System.arraycopy(auxiliarStudent.getPreferences(),0,auxiliarProjects,0,auxiliarStudent.getNrPreferences());
+            auxiliarProjects=(ArrayList)auxiliarStudent.getPreferences().clone();
+            for (int j = 0; j < auxiliarProjects.size(); j++){
+                if (projectsList.indexOf(auxiliarProjects.get(i)) == -1){
+                    projectsList.add(auxiliarProjects.get(i));
                 }
             }
         }
