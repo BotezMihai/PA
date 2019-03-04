@@ -20,5 +20,8 @@ public class Main {
         Edge e = new Edge(v1, v2, 15);
         map.addEdge(e);
         System.out.println("The map is: \n" + map.getNodes());
+
+        System.out.println(map.toString());
+
     }
 }

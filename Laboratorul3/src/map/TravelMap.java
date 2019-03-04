@@ -47,6 +47,7 @@ public class TravelMap {
     }
 
 
+
     /**
      * Sets the list of edges
      * @param listOfEdges the list of edges
@@ -70,9 +71,24 @@ public class TravelMap {
     public void addEdge(Edge edge){
         this.listOfEdges.add(edge);
     }
+
+    /**
+     * Retrieves the list with nodes
+     * @return the list with nodes
+     */
     public ArrayList<Node> getNodes()
     {
         return listOfNodes;
     }
 
+    @Override
+    public String toString() {
+        String travelMap = new String();
+        travelMap += "Map : \n";
+        for (int i = 0; i < listOfEdges.size(); i++){
+            travelMap += listOfEdges.get(i).toString();
+            travelMap += '\n';
+        }
+        return travelMap;
+    }
 }

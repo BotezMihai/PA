@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b89ea2ca-4811-4fd8-bdeb-8c7b62990b12" name="Default Changelist" comment="Am generat javadoc">
-      <change beforePath="$PROJECT_DIR$/../../Lab1Optional/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab1Optional/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1Optional/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab1Optional/src/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab2Optional/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Optional/Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab2Optional/Essay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Optional/Essay.class" afterDir="false" />
@@ -14,9 +12,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/Lab2Optional/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Optional/Project.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab2Optional/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Optional/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab2Optional/Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Optional/Topic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Laboratorul3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Laboratorul3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Church.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Church.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Classifiable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Classifiable.class" afterDir="false" />
@@ -29,8 +24,6 @@
       <change beforePath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Restaurant.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/TravelMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/TravelMap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Visitable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Visitable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Laboratorul3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Laboratorul3/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/src/Node.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -260,7 +253,7 @@
       <workItem from="1551630126900" duration="1954000" />
       <workItem from="1551644880457" duration="795000" />
       <workItem from="1551681720404" duration="1893000" />
-      <workItem from="1551707911714" duration="1768000" />
+      <workItem from="1551707911714" duration="2323000" />
     </task>
     <task id="LOCAL-00001" summary="Added the entire project &#10;Added exercises from Optional and small modifications">
       <created>1551379394769</created>
@@ -290,11 +283,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551683552412</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Small modifications">
+      <created>1551709921981</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551709921981</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15226000" />
+    <option name="totallyTimeSpent" value="15781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -327,7 +327,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Run" order="9" visible="true" weight="0.32885906" />
+      <window_info anchor="right" id="Run" order="9" weight="0.32885906" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +377,8 @@
     <MESSAGE value="Added the entire project &#10;Added exercises from Optional and small modifications" />
     <MESSAGE value="Am adaugat cateva chestii" />
     <MESSAGE value="Am generat javadoc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Am generat javadoc" />
+    <MESSAGE value="Small modifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small modifications" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/function/Predicate.java">

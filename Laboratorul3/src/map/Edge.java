@@ -10,6 +10,10 @@ public class Edge {
     private boolean type;
     private int cost;
 
+    public Edge(){
+
+    }
+
     public Edge(Node node1, Node node2, int cost) {
         this.node1 = node1;
         this.node2 = node2;
@@ -54,5 +58,16 @@ public class Edge {
 
     public void setCost(int cost) {
         this.cost = cost;
+    }
+
+    @Override
+    public String toString() {
+        String edge = new String();
+        if (type == true) {
+            edge += "Edge: " + node1.getName() + " <-> " + node2.getName() + " Cost: "+ cost;
+        } else {
+            edge += "Edge: " + node1.getName() + " -> " + node2.getName() + " Cost: "+ cost;
+        }
+        return edge;
     }
 }
