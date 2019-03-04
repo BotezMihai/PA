@@ -1,3 +1,8 @@
+/**
+ * @author Dragomir Cristian
+ * @author Botez Mihai
+ */
+
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.*;
@@ -19,8 +24,8 @@ public class Main {
         System.out.println(s1.toString());
         Problem problem = new Problem();
         problem.setStudents(s1, s2, s3, s4);
-//     problem.setStudents(s1);
-//        verified that i cannot add the same student
+//      problem.setStudents(s1);
+//      verified that i cannot add the same student
         problem.getStudents();
         System.out.println(problem);
 

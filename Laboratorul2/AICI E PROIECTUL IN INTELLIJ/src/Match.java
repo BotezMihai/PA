@@ -1,7 +1,11 @@
-import java.util.*;
-import java.util.stream.*;
-java.util.Set;
-        java.util.HashSet
+/**
+ * @author Dragomir Cristian
+ * @author Botez Mihai
+ */
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 public class Match {
 
     private Map matches;
@@ -15,6 +19,7 @@ public class Match {
 
     }
 
+    /* i commented this because it caused an error i wouldnt be able to generate javadoc
     public Project checkProject(Student student)
     {
         ArrayList<Project> projects1=student.getPreferences();
@@ -34,6 +39,7 @@ public class Match {
             }
         }
     }
+
     public void makeMatches(){
 
         int i;
@@ -44,6 +50,6 @@ public class Match {
         }
 
     }
-
+    */
 
 }
