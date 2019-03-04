@@ -1,18 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b89ea2ca-4811-4fd8-bdeb-8c7b62990b12" name="Default Changelist" comment="Am adaugat">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b89ea2ca-4811-4fd8-bdeb-8c7b62990b12" name="Default Changelist" comment="Am generat javadoc">
+      <change beforePath="$PROJECT_DIR$/../../Lab1Optional/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab1Optional/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab1Optional/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab1Optional/src/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Essay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Essay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab2Optional/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Optional/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab2Optional/Essay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Optional/Essay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab2Optional/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Optional/Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab2Optional/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Optional/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab2Optional/Match.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Optional/Match.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab2Optional/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Optional/Problem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab2Optional/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Optional/Project.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab2Optional/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Optional/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab2Optional/Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Optional/Topic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Match.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Topic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratorul3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratorul3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Church.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Church.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Classifiable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Classifiable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Hotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Museum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Museum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Payable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Payable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Restaurant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/TravelMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/TravelMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Visitable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/out/production/Lab3/Visitable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratorul3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratorul3/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorul3/src/Node.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state>
+              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -41,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="209">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -53,20 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Problem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1520">
-              <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Match.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="21" column="88" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
+            <state relative-caret-position="233">
+              <caret line="81" column="51" selection-start-line="81" selection-start-column="51" selection-end-line="81" selection-end-column="51" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -75,9 +81,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Match.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Essay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
+            <state relative-caret-position="532">
               <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -98,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Project.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
+            <state relative-caret-position="1273">
               <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -119,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="385">
+              <caret line="130" column="73" lean-forward="true" selection-start-line="130" selection-start-column="73" selection-end-line="130" selection-end-column="73" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -146,12 +164,12 @@
         <option value="$PROJECT_DIR$/src/Language.java" />
         <option value="$PROJECT_DIR$/src/Topic.java" />
         <option value="$PROJECT_DIR$/src/Project.java" />
-        <option value="$PROJECT_DIR$/src/Student.java" />
         <option value="$PROJECT_DIR$/src/Essay.java" />
         <option value="$PROJECT_DIR$/src/Application.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Problem.java" />
         <option value="$PROJECT_DIR$/src/Match.java" />
+        <option value="$PROJECT_DIR$/src/Student.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -193,6 +211,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551379694972" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Lab1Optional" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -240,7 +259,8 @@
       <workItem from="1551479382193" duration="779000" />
       <workItem from="1551630126900" duration="1954000" />
       <workItem from="1551644880457" duration="795000" />
-      <workItem from="1551681720404" duration="1682000" />
+      <workItem from="1551681720404" duration="1893000" />
+      <workItem from="1551707911714" duration="1768000" />
     </task>
     <task id="LOCAL-00001" summary="Added the entire project &#10;Added exercises from Optional and small modifications">
       <created>1551379394769</created>
@@ -263,29 +283,35 @@
       <option name="project" value="LOCAL" />
       <updated>1551644997710</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Am generat javadoc">
+      <created>1551683552412</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551683552412</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13247000" />
+    <option name="totallyTimeSpent" value="15226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1409396" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.14295302" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.329429" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="5" visible="true" weight="0.329429" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.329429" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
@@ -350,7 +376,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added the entire project &#10;Added exercises from Optional and small modifications" />
     <MESSAGE value="Am adaugat cateva chestii" />
-    <option name="LAST_COMMIT_MESSAGE" value="Am adaugat cateva chestii" />
+    <MESSAGE value="Am generat javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Am generat javadoc" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/function/Predicate.java">
@@ -369,8 +396,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="385">
+          <caret line="130" column="73" lean-forward="true" selection-start-line="130" selection-start-column="73" selection-end-line="130" selection-end-column="73" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="175" column="7" lean-forward="true" selection-start-line="175" selection-start-column="7" selection-end-line="175" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="81" column="51" selection-start-line="81" selection-start-column="51" selection-end-line="81" selection-end-column="51" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -386,28 +440,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Essay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -416,18 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Problem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+        <state>
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -436,8 +460,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Match.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="21" column="88" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
+        <state relative-caret-position="551">
+          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Essay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

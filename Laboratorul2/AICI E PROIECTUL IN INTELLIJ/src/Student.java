@@ -57,18 +57,6 @@ public class Student {
         preference.add(e);
     }
 
-    /*void getPreferences(){
-
-
-        ListIterator it = preference.listIterator();
-        while(it.hasNext())
-        {
-            Project project=(Project)it.next();
-            System.out.println(project.getName());
-        }
-    }
-    */
-
     /**
      * Retrieves the preference array
      *

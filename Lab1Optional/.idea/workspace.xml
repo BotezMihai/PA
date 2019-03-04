@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="196ddc2b-c9a8-43de-95b7-9316be00f80b" name="Default Changelist" comment="Deleted some comments">
-      <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/out/production/Lab2Optional/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/out/production/Lab2Optional/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/out/production/Lab2Optional/Essay.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/out/production/Lab2Optional/Essay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/out/production/Lab2Optional/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/out/production/Lab2Optional/Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/out/production/Lab2Optional/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/out/production/Lab2Optional/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/out/production/Lab2Optional/Match.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/out/production/Lab2Optional/Match.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/out/production/Lab2Optional/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/out/production/Lab2Optional/Problem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/out/production/Lab2Optional/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/out/production/Lab2Optional/Project.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/out/production/Lab2Optional/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/out/production/Lab2Optional/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/out/production/Lab2Optional/Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratorul2/AICI E PROIECTUL IN INTELLIJ/out/production/Lab2Optional/Topic.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +23,12 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1062">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="95">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -28,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="9" selection-end-line="203" />
+            <state relative-caret-position="442">
+              <caret line="199" column="4" lean-forward="true" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -43,13 +51,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Graph.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1913" />
-    <option name="width" value="654" />
-    <option name="height" value="991" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="502" />
+    <option name="y" value="-15" />
+    <option name="width" value="818" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -57,6 +67,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -73,14 +85,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551091083828" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551683777432" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -112,14 +122,15 @@
       <option name="presentableId" value="Default" />
       <updated>1551088004223</updated>
       <workItem from="1551088006273" duration="1098000" />
+      <workItem from="1551683626626" duration="217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1098000" />
+    <option name="totallyTimeSpent" value="1315000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="0" width="654" height="991" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -127,7 +138,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2962963" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.12214765" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -170,15 +181,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graph.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#4908#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/Lab1Optional/Main.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-36">
@@ -189,17 +191,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2929" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1062">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="95">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="9" selection-end-line="203" />
+        <state relative-caret-position="442">
+          <caret line="199" column="4" lean-forward="true" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="4" />
         </state>
       </provider>
     </entry>

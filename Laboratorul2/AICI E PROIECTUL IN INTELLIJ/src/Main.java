@@ -17,21 +17,25 @@ public class Main {
         Application a2 = new Application("A2", LocalDate.of(2019, Month.JUNE, 1), Language.JAVA);
         Essay e1 = new Essay("E1", LocalDate.parse("2019-06-01"), Topic.ALGORITHMS);
         System.out.println(a1.lang);
+
         s1.setPreferences(a1);
         s1.setPreferences(e1);
         s2.setPreferences(a1);
         s3.setPreferences(a2);
         System.out.println(s1.toString());
+
         Problem problem = new Problem();
         problem.setStudents(s1, s2, s3, s4);
+
 //      problem.setStudents(s1);
 //      verified that i cannot add the same student
+
         problem.getStudents();
         System.out.println(problem);
 
         ArrayList<Project> projectsList = new ArrayList<Project>();
         projectsList=problem.getProjects();
-       // System.out.println("The projects are "+projectsList);
+
         System.out.println(projectsList.size());
         Iterator it=projectsList.iterator();
         while(it.hasNext())
@@ -40,7 +44,6 @@ public class Main {
             System.out.print(element+" ");
         }
 
-       //problem.getProjects();
 
     }
 
