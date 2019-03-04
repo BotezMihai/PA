@@ -4,11 +4,6 @@
  */
 interface Payable {
     /**
-     * Stores the entry fee
-     */
-    double entryFee = 0;
-
-    /**
      * Sets the entryFee
      * @param entryFee the entry fee
      */

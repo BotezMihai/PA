@@ -14,10 +14,11 @@ interface Classifiable {
      */
     void setRank(int rank);
 
+
     /**
      * Retrieves the rank
      * @return the rank
      */
-    int getRank();
+    String getRank();
 
 }

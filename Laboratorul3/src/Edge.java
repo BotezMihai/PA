@@ -38,11 +38,11 @@ public class Edge {
         this.node2 = node2;
     }
 
-    public int getType() {
+    public boolean getType() {
         return type;
     }
 
-    public void setType(int type) {
+    public void setType(boolean type) {
         this.type = type;
     }
 

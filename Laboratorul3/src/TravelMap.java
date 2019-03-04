@@ -19,6 +19,11 @@ public class TravelMap {
      * Retrieves the list of nodes
      * @return the list of nodes
      */
+    public TravelMap()
+    {
+        listOfNodes=new ArrayList<Node>();
+        listOfEdges=new ArrayList<Edge>();
+    }
     public ArrayList<Node> getListOfNodes() {
         return listOfNodes;
     }
@@ -62,6 +67,10 @@ public class TravelMap {
      */
     public void addEdge(Edge edge){
         this.listOfEdges.add(edge);
+    }
+    public ArrayList<Node> getNodes()
+    {
+        return listOfNodes;
     }
 
 }

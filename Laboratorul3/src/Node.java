@@ -20,6 +20,10 @@ public class Node {
      * Retrieves the name of the node
      * @return the name
      */
+    public Node (String name)
+    {
+        this.name=name;
+    }
     public String getName() {
         return name;
     }

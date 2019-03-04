@@ -8,7 +8,7 @@ interface Visitable {
     /**
      * Stores the opening hour
      */
-    LocalTime openingHour = LocalTime.of(00,00);
+   // LocalTime openingHour = LocalTime.of(00,00);
 
     /**
      * Stores the closing hour
