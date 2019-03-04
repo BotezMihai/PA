@@ -1,3 +1,5 @@
+package map;
+
 /**
  * @author Botez Mihai
  * @author Dragomir Cristian

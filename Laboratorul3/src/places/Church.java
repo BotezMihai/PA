@@ -1,10 +1,13 @@
+package places;
+import interfaces.Classifiable;
+import map.*;
 /**
  * @author Botez Mihai
  * @author Dragomir Cristian
  */
 public class Church extends Node implements Classifiable {
 
-    String typeOfChurch;
+   private String typeOfChurch;
     public Church(String name)
     {
         super(name);

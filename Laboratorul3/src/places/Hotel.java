@@ -1,9 +1,12 @@
-/**
+package places; /**
  * @author Botez Mihai
  * @author Dragomir Cristian
  */
+import interfaces.Classifiable;
+import interfaces.Payable;
+import map.*;
 import java.util.Scanner;
-public class Hotel extends Node implements Classifiable, Payable{
+public class Hotel extends Node implements Classifiable, Payable {
 
       private String rank;
       private int singleRoom;
@@ -15,7 +18,7 @@ public class Hotel extends Node implements Classifiable, Payable{
        }
   public void setRank(int s)
   {
-        rank=String.format("Hotel with %d stars",s);
+        rank=String.format("places.Hotel with %d stars",s);
 
   }
   public String getRank()

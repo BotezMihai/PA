@@ -1,10 +1,10 @@
-/**
+package interfaces; /**
  * @author Botez Mihai
  * @author Dragomir Cristian
  */
 import java.time.LocalTime;
 
-interface Visitable {
+public interface Visitable {
     /**
      * Stores the opening hour
      */

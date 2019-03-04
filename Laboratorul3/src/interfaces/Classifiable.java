@@ -1,8 +1,10 @@
+package interfaces;
+
 /**
  * @author Botez Mihai
  * @author Dragomir Cristian
  */
-interface Classifiable {
+public interface Classifiable {
     /**
      * Stores the rank of the location
      */

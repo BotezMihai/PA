@@ -1,3 +1,5 @@
+package map;
+
 import java.util.ArrayList;
 
 /**
@@ -8,12 +10,12 @@ public class TravelMap {
     /**
      * Stores the list of nodes
      */
-    public ArrayList<Node> listOfNodes;
+    private ArrayList<Node> listOfNodes;
 
     /**
      * Stores the list of edges
      */
-    public ArrayList<Edge> listOfEdges;
+    private ArrayList<Edge> listOfEdges;
 
     /**
      * Retrieves the list of nodes

@@ -1,7 +1,11 @@
-/**
+package places; /**
  * @author Botez Mihai
  * @author Dragomir Cristian
  */
+import interfaces.Classifiable;
+import interfaces.Payable;
+import interfaces.Visitable;
+import map.*;
 import java.time.LocalTime;
 public class Museum extends Node implements Classifiable, Visitable, Payable {
   private  String typeOfMuseum;
@@ -26,7 +30,7 @@ public class Museum extends Node implements Classifiable, Visitable, Payable {
         }
         else if(s==4)
         {
-            typeOfMuseum= "National History Museum";
+            typeOfMuseum= "National History places.Museum";
 
         }
         else if(s<1 && s>4)

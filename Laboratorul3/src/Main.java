@@ -1,4 +1,7 @@
-
+import map.Edge;
+import map.TravelMap;
+import places.Hotel;
+import places.Museum;
 import java.time.LocalTime;
 
 public class Main {
