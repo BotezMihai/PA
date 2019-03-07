@@ -51,6 +51,7 @@ public class TravelMap {
     }
 
 
+
     /**
      * Sets the list of edges
      *
@@ -78,11 +79,30 @@ public class TravelMap {
         this.listOfEdges.add(edge);
     }
 
+<<<<<<< HEAD
     public ArrayList<Node> getNodes() {
         listOfNodes.sort(Comparator.comparing(Node::getName));
+=======
+    /**
+     * Retrieves the list with nodes
+     * @return the list with nodes
+     */
+    public ArrayList<Node> getNodes()
+    {
+>>>>>>> 59d905daf048d22713058cb2712f140017a6fdc5
         return listOfNodes;
 
 
     }
 
+    @Override
+    public String toString() {
+        String travelMap = new String();
+        travelMap += "Map : \n";
+        for (int i = 0; i < listOfEdges.size(); i++){
+            travelMap += listOfEdges.get(i).toString();
+            travelMap += '\n';
+        }
+        return travelMap;
+    }
 }
