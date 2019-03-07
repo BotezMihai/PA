@@ -1,8 +1,12 @@
+import interfaces.Visitable;
 import map.Edge;
+import map.Node;
 import map.TravelMap;
 import places.Hotel;
 import places.Museum;
+
 import java.time.LocalTime;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,5 +24,7 @@ public class Main {
         Edge e = new Edge(v1, v2, 15);
         map.addEdge(e);
         System.out.println("The map is: \n" + map.getNodes());
+        ArrayList<Node> list=map.getNodes();
+        list.stream().filter(y-> y instanceof Visitable).forEach(x->System.out.println("Visitable"+x));
     }
 }

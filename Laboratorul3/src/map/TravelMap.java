@@ -1,6 +1,7 @@
 package map;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 /**
  * @author Botez Mihai
@@ -19,19 +20,21 @@ public class TravelMap {
 
     /**
      * Retrieves the list of nodes
+     *
      * @return the list of nodes
      */
-    public TravelMap()
-    {
-        listOfNodes=new ArrayList<Node>();
-        listOfEdges=new ArrayList<Edge>();
+    public TravelMap() {
+        listOfNodes = new ArrayList<Node>();
+        listOfEdges = new ArrayList<Edge>();
     }
+
     public ArrayList<Node> getListOfNodes() {
         return listOfNodes;
     }
 
     /**
      * Sets the list of nodes
+     *
      * @param listOfNodes the list of nodes
      */
     public void setListOfNodes(ArrayList<Node> listOfNodes) {
@@ -40,6 +43,7 @@ public class TravelMap {
 
     /**
      * Retrieves the list of edges
+     *
      * @return the list of edges
      */
     public ArrayList<Edge> getListOfEdges() {
@@ -49,6 +53,7 @@ public class TravelMap {
 
     /**
      * Sets the list of edges
+     *
      * @param listOfEdges the list of edges
      */
     public void setListOfEdges(ArrayList<Edge> listOfEdges) {
@@ -57,22 +62,27 @@ public class TravelMap {
 
     /**
      * Adds a node to the travel map
+     *
      * @param node the node to be added
      */
-    public void addNode(Node node){
+    public void addNode(Node node) {
         this.listOfNodes.add(node);
     }
 
     /**
      * Adds an edge to the travel map
+     *
      * @param edge the edge to be added
      */
-    public void addEdge(Edge edge){
+    public void addEdge(Edge edge) {
         this.listOfEdges.add(edge);
     }
-    public ArrayList<Node> getNodes()
-    {
+
+    public ArrayList<Node> getNodes() {
+        listOfNodes.sort(Comparator.comparing(Node::getName));
         return listOfNodes;
+
+
     }
 
 }
