@@ -6,6 +6,10 @@ package interfaces;
  */
 public interface Payable {
     /**
+     * Stores the entry fee
+     */
+    int entryFee = 0;
+    /**
      * Sets the entryFee
      * @param entryFee the entry fee
      */

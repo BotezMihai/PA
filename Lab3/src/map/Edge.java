@@ -10,7 +10,7 @@ public class Edge {
     private boolean type;
     private int cost;
 
-    public Edge(){
+    public Edge() {
 
     }
 
@@ -64,9 +64,9 @@ public class Edge {
     public String toString() {
         String edge = new String();
         if (type == true) {
-            edge += "Edge: " + node1.getName() + " <-> " + node2.getName() + " Cost: "+ cost;
+            edge += "(" + node1.getName() + " <-> " + node2.getName() + ") cost: " + cost;
         } else {
-            edge += "Edge: " + node1.getName() + " -> " + node2.getName() + " Cost: "+ cost;
+            edge += "(" + node1.getName() + " -> " + node2.getName() + ") cost: " + cost;
         }
         return edge;
     }

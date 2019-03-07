@@ -20,20 +20,25 @@ public class Node {
 
     /**
      * Retrieves the name of the node
+     *
      * @return the name
      */
-    public Node (String name)
-    {
-        this.name=name;
+    public Node(String name) {
+        this.name = name;
     }
 
-
+    /**
+     * Retrieves the name of the node
+     *
+     * @return the name
+     */
     public String getName() {
         return name;
     }
 
     /**
      * Sets the name of the node
+     *
      * @param name the name
      */
     public void setName(String name) {
@@ -42,6 +47,7 @@ public class Node {
 
     /**
      * Retrieves the longitude of the node
+     *
      * @return the longitude
      */
     public double getLongitude() {
@@ -50,6 +56,7 @@ public class Node {
 
     /**
      * Sets the longitude of the node
+     *
      * @param longitude the longitude
      */
     public void setLongitude(double longitude) {
@@ -58,6 +65,7 @@ public class Node {
 
     /**
      * Retrieces the latitude of the node
+     *
      * @return the latitude
      */
     public double getLatitude() {
@@ -66,6 +74,7 @@ public class Node {
 
     /**
      * Sets the latitude of the node
+     *
      * @param latitude the latitude
      */
     public void setLatitude(double latitude) {
