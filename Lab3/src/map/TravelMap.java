@@ -19,15 +19,18 @@ public class TravelMap {
     private ArrayList<Edge> listOfEdges;
 
     /**
-     * Retrieves the list of nodes
-     *
-     * @return the list of nodes
+     * Implicit constructor
      */
     public TravelMap() {
         listOfNodes = new ArrayList<Node>();
         listOfEdges = new ArrayList<Edge>();
     }
 
+    /**
+     * Retrieves the list of nodes
+     *
+     * @return the list of nodes
+     */
     public ArrayList<Node> getListOfNodes() {
         return listOfNodes;
     }
@@ -49,7 +52,6 @@ public class TravelMap {
     public ArrayList<Edge> getListOfEdges() {
         return listOfEdges;
     }
-
 
 
     /**
@@ -81,6 +83,7 @@ public class TravelMap {
 
     /**
      * Retrieves the list with nodes
+     *
      * @return the list with nodes
      */
     public ArrayList<Node> getNodes() {
@@ -90,11 +93,16 @@ public class TravelMap {
     }
 
 
+    /**
+     * Retrieves a representation for the travel map
+     *
+     * @return the representation of the map
+     */
     @Override
     public String toString() {
         String travelMap = new String();
         travelMap += "Map : \n";
-        for (int i = 0; i < listOfEdges.size(); i++){
+        for (int i = 0; i < listOfEdges.size(); i++) {
             travelMap += listOfEdges.get(i).toString();
             travelMap += '\n';
         }

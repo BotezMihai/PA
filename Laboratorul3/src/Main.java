@@ -8,6 +8,7 @@ import places.Museum;
 import java.time.LocalTime;
 import java.util.ArrayList;
 
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("hello");
@@ -26,6 +27,11 @@ public class Main {
         System.out.println("The map is: \n" + map.getNodes());
         ArrayList<Node> list=map.getNodes();
         list.stream().filter(y-> y instanceof Visitable).forEach(x->System.out.println("Visitable"+x));
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> cfbca5437ed5df520bbe0f57d3f43310565d47b2
         System.out.println(map.toString());
 
 
