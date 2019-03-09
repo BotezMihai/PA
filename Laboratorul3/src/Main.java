@@ -24,13 +24,10 @@ public class Main {
         Edge e = new Edge(v1, v2, 15);
         map.addEdge(e);
         System.out.println("The map is: \n" + map.getNodes());
-<<<<<<< HEAD
         ArrayList<Node> list=map.getNodes();
         list.stream().filter(y-> y instanceof Visitable).forEach(x->System.out.println("Visitable"+x));
-=======
-
         System.out.println(map.toString());
 
->>>>>>> 59d905daf048d22713058cb2712f140017a6fdc5
+
     }
 }
