@@ -2,13 +2,13 @@
  * @author Dragomir Cristian
  * @author Mihai Botez
  */
-public class Graph {
+public class Graph implements java.io.Serializable {
     private String name;
     private String description;
     private String definition;
     private String imageLocation;
 
-    public Graph(String name, String definition, String imageLocation){
+    public Graph(String name, String definition, String imageLocation) {
         this.name = name;
         this.definition = definition;
         this.imageLocation = imageLocation;
@@ -44,5 +44,13 @@ public class Graph {
 
     public void setImageLocation(String imageLocation) {
         this.imageLocation = imageLocation;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Graph{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }
