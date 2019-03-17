@@ -3,4 +3,5 @@
  * @author Mihai Botez
  */
 public class CatalogIO {
+
 }
