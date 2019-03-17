@@ -1,4 +1,7 @@
+import java.util.List;
+
 public abstract class Command {
+    static List<Object>
     public static void help() {
         System.out.println();
         System.out.println("--------------------");
