@@ -12,10 +12,13 @@ public class CatalogFrame extends JFrame {
     public CatalogFrame() {
         super("Visual Graph Manager");
         init();
+
         form=new GraphForm();
-        form.setLayout(new GridBagLayout());
+       // this.add(form);
         this.add(form,BorderLayout.PAGE_START);
-        
+        pack();
+        setLocationRelativeTo(null);
+
     }
     private void init() {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
