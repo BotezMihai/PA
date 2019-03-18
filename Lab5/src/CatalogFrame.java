@@ -15,6 +15,7 @@ public class CatalogFrame extends JFrame {
         form=new GraphForm();
         form.setLayout(new GridBagLayout());
         this.add(form);
+
     }
     private void init() {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
