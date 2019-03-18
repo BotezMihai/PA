@@ -15,7 +15,7 @@ public class Catalog {
     private String filename;
 
     public Catalog(String path) {
-        filename = path;
+        this.filename = path;
     }
 
     public Catalog(ArrayList<Graph> catalog, String filename) {

@@ -1,10 +1,9 @@
 import catalog.Catalog;
+import catalog.Graph;
 import commands.*;
 import exceptions.WrongCommandFormatException;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,13 +13,15 @@ import java.util.List;
  * @author Mihai Botez
  */
 public class Main {
-    public static void main(String[] args) throws IOException{
-        Catalog catalog = new Catalog("d:/graphs");
+    public static void main(String[] args) throws IOException {
+        Catalog catalog = new Catalog("catalog");
         ArrayList<Catalog> catalogs = new ArrayList<>();
-       /*
+        catalogs.add(catalog);
+
         catalog.add(new Graph("K4", "complete/k4.tgf", "complete/view/k4.png"));
         catalog.add(new Graph("Petersen", "special/petersen.tgf", "petersen.png"));
 
+        /*
         catalog.open("Petersen");
 
         catalog.save("catalog.ser");
@@ -76,7 +77,7 @@ public class Main {
                 String[] values = commandLine.split(" ");
                 String name = values[1];
 
-                for (Catalog aCatalog:catalogs) {
+                for (Catalog aCatalog : catalogs) {
                     if (aCatalog.getFilename().equals(name)) {
                         ListCommand listCommand = new ListCommand();
                         listCommand.doCommand(aCatalog);
@@ -91,8 +92,9 @@ public class Main {
                 String name = values[1];
                 Catalog newCatalog = new Catalog("newCatalog");
 
-                for (Catalog aCatalog:catalogs) {
+                for (Catalog aCatalog : catalogs) {
                     if (aCatalog.getFilename().equals(name)) {
+
                         LoadCommand loadCommand = new LoadCommand(name);
                         loadCommand.doCommand(newCatalog);
                     }
@@ -104,7 +106,7 @@ public class Main {
                 String name = values[1];
 
 
-                for (Catalog aCatalog:catalogs) {
+                for (Catalog aCatalog : catalogs) {
                     if (aCatalog.getFilename().equals(name)) {
                         OpenCommand openCommand = new OpenCommand();
                         openCommand.doCommand(catalog);
@@ -112,6 +114,53 @@ public class Main {
                 }
             }
 
+            if (commandLine.matches("report[ ]*html[ ]*[a-zA-Z0-9]+")) {
+                String text = "<!DOCTYPE html>\n" +
+                        "<html lang=\"en\">\n" +
+                        "\n" +
+                        "<head>\n" +
+                        "    <meta charset=\"UTF-8\">\n" +
+                        "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n" +
+                        "    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n" +
+                        "    <title>Report</title>\n" +
+                        "</head>";
+
+                text = text + "\n" + "<body>";
+                String[] values = commandLine.split(" ");
+                String name = values[2];
+
+                for (Catalog aCatalog : catalogs) {
+                    if (aCatalog.getFilename().equals(name)) {
+                        String catalogName = "<h1>" + aCatalog.getFilename() + "</h1>";
+                        text = text + catalogName;
+
+                        for (Graph graph : aCatalog.getCatalog()) {
+                            String graphName = "<p>Graph's name:" + graph.getName() + "</p>";
+                            String description = "<p>Graph's description:" + graph.getDescription() + "</p>";
+                            String definition = "<p>Graph's definition:" + graph.getDefinition() + "</p>";
+                            String imageLocation = "<img src =\"" + graph.getImageLocation() + "\" alt=\"nimic\">";
+                            text = text + "\n" + graphName + "\n" + description + "\n" + definition + "\n" + imageLocation;
+                        }
+                    }
+                }
+
+                text = text + "\n" + "</body></html>";
+                File file = new File("report.html");
+                if (!file.exists()) {
+                    file.createNewFile();
+                }
+
+                BufferedWriter out = new BufferedWriter(new FileWriter("report.html"));
+
+                try {
+                    out.write(text);
+                } catch (IOException e) {
+                    System.out.println("Exception ");
+                } finally {
+                    out.close();
+                }
+
+            }
 
         }
     }
