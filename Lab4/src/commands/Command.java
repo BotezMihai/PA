@@ -1,7 +1,11 @@
+package commands;
+
+import catalog.Catalog;
+
 import java.util.List;
 
 public abstract class Command {
-    static List<Object>
+
     public static void help() {
         System.out.println();
         System.out.println("--------------------");
@@ -14,5 +18,7 @@ public abstract class Command {
         System.out.println("---------------------");
         System.out.println();
     }
+
+    public abstract void doCommand(Catalog catalog);
 
 }

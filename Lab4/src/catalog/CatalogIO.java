@@ -1,3 +1,5 @@
+package catalog;
+
 /**
  * @author Dragomir Cristian
  * @author Mihai Botez

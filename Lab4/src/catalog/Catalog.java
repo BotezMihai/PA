@@ -1,4 +1,5 @@
-import java.awt.*;
+package catalog;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.awt.Desktop;
