@@ -28,12 +28,27 @@ public class GraphForm extends JPanel {
         JTextField Name = new JTextField(20);
         JLabel labelType = new JLabel("Enter type:");
         JTextField textType = new JTextField(20);
-
+        JLabel labelPath = new JLabel("Enter path:");
+        JTextField textPath = new JTextField(20);
+        JLabel labelImg = new JLabel("Enter path of image:");
+        JTextField textImg = new JTextField(20);
+        JLabel labelVertices = new JLabel("Number of vertices:");
+        JTextField textVertices = new JTextField(20);
+        JLabel labelNodes = new JLabel("Number of nodes:");
+        JTextField textNodes = new JTextField(20);
         this.add(label);
         this.add(Name);
         this.add(labelType);
         this.add(textType);
-        
+        this.add(labelPath);
+        this.add(textPath);
+        this.add(labelImg);
+        this.add(textImg);
+        this.add(labelVertices);
+        this.add(textVertices);
+        this.add(labelNodes);
+        this.add(textNodes);
+
         // addButton.addActionListener(...);
     }
     private void addGraph() {
