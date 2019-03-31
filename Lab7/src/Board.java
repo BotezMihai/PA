@@ -29,11 +29,11 @@ public class Board {
         complete.show();
     }
 
-//    public synchronized Edge extract() {
-//        // replace the dots so that the board is thread-safe
-//        Edge edge = complete.pollFirst();
-//        return edge;
-//    }
+    public synchronized Edge extract() {
+        // replace the dots so that the board is thread-safe
+        Edge edge = complete.pollFirst();
+        return edge;
+    }
 //    public boolean isEmpty() {
 //
 //    }

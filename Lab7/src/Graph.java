@@ -1,11 +1,12 @@
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Graph {
-    ArrayList<Edge> listOfEdges;
+    LinkedList<Edge> listOfEdges;
     int numberOfNodes;
 
     public Graph(int numberOfNodes){
-        listOfEdges=new ArrayList<Edge>();
+        listOfEdges=new LinkedList<Edge>();
         this.numberOfNodes=numberOfNodes;
 
 
@@ -20,5 +21,9 @@ public class Graph {
         {
             System.out.println(edge);
         }
+    }
+    public Edge pollFirst()
+    {
+        return listOfEdges.pollFirst();
     }
 }
