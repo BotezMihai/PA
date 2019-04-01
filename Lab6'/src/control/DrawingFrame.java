@@ -56,7 +56,7 @@ public class DrawingFrame extends JFrame {
                     onDelete=1;
                 else
                     onDelete=0;
-                System.out.println("sunt in delete");
+                System.out.println("sunt in delete"+ onDelete);
             }
 
         }

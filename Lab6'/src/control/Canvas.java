@@ -1,40 +1,42 @@
 package control;
 
+import node.InfoLine;
+import node.InfoPoint;
 import node.NodeShape;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.geom.Ellipse2D;
+import java.awt.geom.Line2D;
 import java.awt.image.BufferedImage;
+import java.util.ArrayList;
 import java.util.Random;
 import java.awt.event.MouseAdapter;
-
+import java.util.*;
 import static control.DrawingFrame.on;
 import static control.DrawingFrame.onDelete;
-
 public class Canvas extends JPanel {
 
 
     private BufferedImage image;
     private Graphics2D graphics;
     private int currentMouseX, currentMouseY;
+    private ArrayList<InfoPoint> listofNodes;
+    private ArrayList<InfoLine> listOfEdges;
     int[] cord=new int[4];
     int l=0;
 
     public Canvas() {
         this.setBorder(BorderFactory.createTitledBorder("Drawing paper:"));
         setDoubleBuffered(false);
+        listofNodes=new ArrayList<InfoPoint>();
+        listOfEdges=new ArrayList<InfoLine>();
         addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 currentMouseX = e.getX();
                 currentMouseY = e.getY();
-                if(onDelete==1)
-                {
-    System.out.println(e.getSource());
-
-                }
                 if(on==1) {
                     cord[l] = currentMouseX;
                     l++;
@@ -44,16 +46,52 @@ public class Canvas extends JPanel {
                         System.out.println(cord[i]);
                     if (l == 4) {
                         graphics.setColor(Color.blue);
-                        System.out.println("sunt in if");
+                        graphics.setStroke(new BasicStroke(2));
                         graphics.drawLine(cord[0], cord[1], cord[2], cord[3]);
-                       // graphics.drawLine(10,15,20,25);
+                        listOfEdges.add(new InfoLine(cord[0],cord[1],cord[2],cord[3]));
+
                        repaint();
                         l = 0;
+                    }
+                }
+                if(onDelete==1 && on==0)
+                {
+                    for(InfoPoint i: listofNodes)
+                    {
+
+                        if((currentMouseX>i.getX() && currentMouseX<i.getX()+i.getStroke()) || (currentMouseX==i.getX()) || (currentMouseX<i.getX() && currentMouseX>i.getX()-i.getStroke()))
+                        {
+                                if((currentMouseY>i.getY() && currentMouseY<i.getY()+i.getStroke())|| (currentMouseY==i.getY()) || (currentMouseY<i.getY() && currentMouseY>i.getY()-i.getStroke())) {
+                                    System.out.println("da");
+                                    NodeShape node = new NodeShape(i.getX(), i.getY(), i.getStroke()+3);
+                                    graphics.setColor(Color.white);
+                                    graphics.setPaint(Color.white);
+                                    graphics.fill(node);
+                                    graphics.draw(node);
+                                    repaint();
+                                    listofNodes.remove(i);
+                                    break;
+
+                                }
+                        }
+                    }
+                    for(InfoLine i: listOfEdges)
+                    {
+                        if(Line2D.ptSegDist(i.getX1(),i.getY1(),i.getX2(),i.getY2(),currentMouseX,currentMouseY)<2)
+                    {
+                        System.out.println("apartine");
+                        graphics.setColor(Color.white);
+                        graphics.setStroke(new BasicStroke(3));
+                        graphics.drawLine(i.getX1(),i.getY1(),i.getX2(),i.getY2());
+                        repaint();
+
+                    }
                     }
                 }
                 if (graphics != null && on==0 && onDelete==0) {
                     int stroke = Integer.parseInt(DrawingFrame.form.shapesSize.getText());
                     String color = (String) DrawingFrame.form.colorsValue.getSelectedItem();
+                    listofNodes.add(new InfoPoint(currentMouseX,currentMouseY,stroke));
                     drawShapeAt(currentMouseX, currentMouseY, stroke, color);
                     repaint();
                 }
