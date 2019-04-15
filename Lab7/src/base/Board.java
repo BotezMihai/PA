@@ -1,11 +1,19 @@
+package base;
+
+import base.Edge;
+import base.Graph;
+
 public class Board {
     private final Graph complete;
+    private int numberOfNodes;
+
     public Board(int numberOfNodes) {
+        this.numberOfNodes = numberOfNodes;
         // create the complete graph
         // shuffle its edges
-        complete=new Graph(numberOfNodes);
-        int [][] matrix=new int [numberOfNodes][numberOfNodes];
-        int i,j;
+        complete = new Graph(numberOfNodes);
+        int[][] matrix = new int[numberOfNodes][numberOfNodes];
+        int i, j;
         for (i = 0; i < numberOfNodes; i++) {
             for (j = 0; j < numberOfNodes; j++) {
                 if (i != j)
@@ -15,17 +23,14 @@ public class Board {
             }
         }
         for (i = 0; i < numberOfNodes; i++) {
-            for (j = i + 1; j < numberOfNodes; j++) {
-                if(matrix[i][j]==1)
-                complete.addEdge(new Edge(i,j));
-
+            for (j = 0; j < numberOfNodes; j++) {
+                if (matrix[i][j] == 1)
+                    complete.addEdge(new Edge(i, j));
             }
         }
-
-
     }
-    void show()
-    {
+
+    public void show() {
         complete.show();
     }
 
@@ -34,7 +39,21 @@ public class Board {
         Edge edge = complete.pollFirst();
         return edge;
     }
+
 //    public boolean isEmpty() {
 //
 //    }
+
+
+    public Graph getComplete() {
+        return complete;
+    }
+
+    public int getNumberOfNodes() {
+        return numberOfNodes;
+    }
+
+    public void setNumberOfNodes(int numberOfNodes) {
+        this.numberOfNodes = numberOfNodes;
+    }
 }
