@@ -38,7 +38,6 @@ public class SocialNetworkClient {
                 e.printStackTrace();
             }
         }
-
     }
      //Implement the sendRequestToServer method
      private void sendRequestToServer(String request) throws IOException {

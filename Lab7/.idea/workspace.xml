@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71bb6a9d-3429-401e-98a6-4427b2e8ebb6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab7/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab7/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab7/game/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab7/game/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Player.java" afterDir="false" />
-    </list>
+    <list default="true" id="71bb6a9d-3429-401e-98a6-4427b2e8ebb6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/src/game/Player.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="521">
-              <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+              <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -201,11 +195,12 @@
       <workItem from="1554123870411" duration="1130000" />
       <workItem from="1555308751692" duration="7131000" />
       <workItem from="1555334052722" duration="1206000" />
+      <workItem from="1555928183770" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20699000" />
+    <option name="totallyTimeSpent" value="20725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -325,7 +320,7 @@
     <entry file="file://$PROJECT_DIR$/src/game/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
-          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
         </state>
       </provider>
     </entry>

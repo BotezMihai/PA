@@ -12,8 +12,9 @@ public class ClientThread extends Thread {
     private String friendshipFile;
     // Create the constructor that receives a reference to the server and to the client socket
 
-    ClientThread(Socket socket, SocialNetworkServer server) throws SocketException {
+    public ClientThread(Socket socket, SocialNetworkServer server) throws SocketException {
         this.socket = socket;
+        this.socket.setSoTimeout(100000);
         this.server = server;
     }
 
@@ -34,14 +35,17 @@ public class ClientThread extends Thread {
                 response = execute(request);
                 out.println(response);
                 out.flush();
-
-
             }
+
         } catch (SocketTimeoutException e) {
             e.printStackTrace();
             System.out.println("Socket timed out!!!");
+            try {
+                socket.close();
+            } catch (IOException e1) {
+                e1.printStackTrace();
+            }
             out.println("exit");
-
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
@@ -124,13 +128,13 @@ public class ClientThread extends Thread {
 
         } else if (parts[0].equals("send")) {
 
-            String msg ="";
-           msg+=name;
-           msg+=": ";
+            String msg = "";
+            msg += name;
+            msg += ": ";
             int i;
             for (i = 1; i < parts.length; i++) {
-                msg+=parts[i];
-                msg+=" ";
+                msg += parts[i];
+                msg += " ";
 
             }
             try {
@@ -143,7 +147,7 @@ public class ClientThread extends Thread {
 
 
                     String conversation = user;
-                    conversation+="conv.txt";
+                    conversation += "conv.txt";
                     System.out.print("conv e " + conversation);
 //
                     File f = new File(conversation);
@@ -169,20 +173,18 @@ public class ClientThread extends Thread {
             }
 
 
-        } else if(parts[0].equals("read"))
-        {
+        } else if (parts[0].equals("read")) {
 
-            String nameFile="";
-            nameFile+=name;
-            nameFile+="conv.txt";
+            String nameFile = "";
+            nameFile += name;
+            nameFile += "conv.txt";
             File file = new File(nameFile);
             try {
                 FileReader fileReader = new FileReader(file);
                 BufferedReader bufferedReader = new BufferedReader(fileReader);
                 String line;
                 String content = "";
-                while ((line = bufferedReader.readLine())!= null)
-                {
+                while ((line = bufferedReader.readLine()) != null) {
                     content += line;
 
                 }
@@ -194,8 +196,7 @@ public class ClientThread extends Thread {
             }
 
 
-        }
-        else {
+        } else {
             return "Comanda necunoscuta!";
         }
 

@@ -30,7 +30,8 @@ public class SocialNetworkServer {
             System.out.println(" Asteptam un client... ");
             try {
                 Socket socket = serverSocket.accept();
-                new ClientThread(socket,this).start();
+                ClientThread clientThread = new ClientThread(socket,this);
+                clientThread.start();
             } catch (IOException e) {
                 e.printStackTrace();
             }
