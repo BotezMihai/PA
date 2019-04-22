@@ -17,6 +17,7 @@ public class Main {
         Game game = new Game(board);
         game.addPlayer(new Player("Gheorghe"));
         game.addPlayer(new Player("Vasile"));
+        game.addPlayer(new Player("Georgica"));
         game.start();
 
 //        System.out.println(graph);

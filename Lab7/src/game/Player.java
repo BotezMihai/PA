@@ -4,6 +4,7 @@ import base.Board;
 import base.Graph;
 
 import java.util.Scanner;
+import java.util.concurrent.CountDownLatch;
 
 
 public class Player implements Runnable {
@@ -27,14 +28,29 @@ public class Player implements Runnable {
 
     }
 
-    private boolean play() throws InterruptedException {
-        while (game.getBoard().getComplete().getListOfEdges().size() > 0) {
-            graph.addEdge(game.getBoard().extract());
-            System.out.println(this.name);
-            System.out.println(graph.getListOfEdges());
-            Thread.sleep(THINKING_TIME);
+    private void play() throws InterruptedException {
+        if (game.getPlayers().indexOf(this) < game.getPlayers().size() - 1) {
+            while (game.getBoard().getComplete().getListOfEdges().size() > 0) {
+                graph.addEdge(game.getBoard().extract());
+                System.out.println(game.getPlayers().indexOf(this) + ": " + graph.getListOfEdges());
+                try {
+                    System.out.println(" waiting to get notified at time:" + System.currentTimeMillis());
+                    wait();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+            }
+
+        } else {
+            while (game.getBoard().getComplete().getListOfEdges().size() > 0) {
+                graph.addEdge(game.getBoard().extract());
+                System.out.println(game.getPlayers().indexOf(this) + ": " + graph.getListOfEdges());
+                System.out.println(" Notifier work done");
+                notifyAll();
+                Thread.sleep((game.getPlayers().size() - 1) *);
+            }
         }
-        return true;
     }
 
     public void setGame(Game game) {
