@@ -17,5 +17,6 @@
         <jarDirectory url="file://$USER_HOME$/Downloads/ojdbc8-full" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="ojdbc10" level="project" />
   </component>
 </module>
