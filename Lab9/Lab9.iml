@@ -18,5 +18,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="ojdbc10" level="project" />
+    <orderEntry type="module" module-name="javafaker" />
   </component>
 </module>

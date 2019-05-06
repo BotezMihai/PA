@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Lab9.iml" filepath="$PROJECT_DIR$/Lab9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-faker/javafaker.iml" filepath="$PROJECT_DIR$/java-faker/javafaker.iml" />
     </modules>
   </component>
 </project>
