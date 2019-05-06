@@ -53,17 +53,20 @@ public class Main {
 
         Database.commit();
 
+        try {
+            persons.populate();
+            movies.populate();
+            Database.commit();
+        } catch (SQLException e) {
+            System.out.println("Can't add this record!");
+            Database.rollback();
+        }
+
         allPersons = persons.findAll();
         System.out.println("All the persons: \n" + allPersons);
 
-//        try {
-//            persons.populate();
-//            Database.commit();
-//        } catch (SQLException e) {
-//            System.out.println("Can't add this record!");
-//            Database.rollback();
-//        }
-
+        allMovies = movies.findAll();
+        System.out.println("All the movies: \n" + allMovies);
 
     }
 }

@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dae1b218-5af4-42f9-a925-251a96a591b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Lab8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab9/dao/MovieController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab9/dao/PersonController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab9/db/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab9/db/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab9/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab9/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/MovieController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/PersonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/MovieController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testjpa/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testjpa/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testjpa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testjpa/.idea/workspace.xml" afterDir="false" />
@@ -69,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+            <state relative-caret-position="297">
+              <caret line="68" column="61" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -78,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/PersonController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+            <state relative-caret-position="69">
+              <caret line="57" column="4" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -87,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/ActorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="311">
               <caret line="96" selection-start-line="96" selection-end-line="96" />
             </state>
           </provider>
@@ -96,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/MovieController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="349">
+              <caret line="74" column="83" selection-start-line="74" selection-start-column="83" selection-end-line="74" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -134,9 +124,9 @@
         <option value="$PROJECT_DIR$/src/entities/Actor.java" />
         <option value="$PROJECT_DIR$/src/entities/Director.java" />
         <option value="$PROJECT_DIR$/src/entities/Person.java" />
-        <option value="$PROJECT_DIR$/src/controllers/MovieController.java" />
         <option value="$PROJECT_DIR$/src/controllers/ActorController.java" />
         <option value="$PROJECT_DIR$/src/controllers/PersonController.java" />
+        <option value="$PROJECT_DIR$/src/controllers/MovieController.java" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
       </list>
     </option>
@@ -194,7 +184,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557140325936" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557140639730" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/java-faker/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -249,12 +239,12 @@
       <workItem from="1555942407251" duration="437000" />
       <workItem from="1557052470331" duration="1634000" />
       <workItem from="1557075712477" duration="1213000" />
-      <workItem from="1557128410309" duration="7702000" />
+      <workItem from="1557128410309" duration="8024000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16154000" />
+    <option name="totallyTimeSpent" value="16476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -348,13 +338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -380,29 +363,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/ActorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="311">
           <caret line="96" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/MovieController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/PersonController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+        <state relative-caret-position="69">
+          <caret line="57" column="4" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/MovieController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="74" column="83" selection-start-line="74" selection-start-column="83" selection-end-line="74" selection-end-column="83" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        <state relative-caret-position="297">
+          <caret line="68" column="61" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,6 @@
 package controllers;
 
+import com.github.javafaker.Faker;
 import db.Database;
 import entities.Director;
 import entities.Movie;
@@ -65,6 +66,15 @@ public class MovieController {
         }
 
         return movies;
+    }
+
+    public void populate() throws SQLException {
+        Faker faker = new Faker();
+        int entrys = 100;
+        while (entrys > 0){
+            create(faker.name().firstName() + " " + faker.name().lastName(), entrys);
+            entrys -= 1;
+        }
     }
 
 }
