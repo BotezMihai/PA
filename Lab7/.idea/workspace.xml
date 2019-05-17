@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71bb6a9d-3429-401e-98a6-4427b2e8ebb6" name="Default Changelist" comment="" />
+    <list default="true" id="71bb6a9d-3429-401e-98a6-4427b2e8ebb6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/out/production/Lab9/controllers/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/out/production/Lab9/controllers/MovieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/out/production/Lab9/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/out/production/Lab9/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/src/controllers/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/src/controllers/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/src/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/src/controllers/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab10/.idea/dataSources/f1091d60-9288-477a-b6e9-00b0377166e8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab10/.idea/dataSources/f1091d60-9288-477a-b6e9-00b0377166e8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab10/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab10/src/main/java/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab10/src/main/java/entity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab10/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab10/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab10/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab10/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab10/target/classes/MovieManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab10/target/classes/MovieManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab10/target/classes/controller/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab10/target/classes/controller/MovieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab10/target/classes/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab10/target/classes/controller/PersonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab10/target/classes/entity/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab10/target/classes/entity/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab10/target/classes/entity/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab10/target/classes/entity/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testjpa/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testjpa/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testjpa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testjpa/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testjpa/out/production/testjpa/MovieManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../testjpa/out/production/testjpa/MovieManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testjpa/out/production/testjpa/controller/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../testjpa/out/production/testjpa/controller/MovieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testjpa/out/production/testjpa/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../testjpa/out/production/testjpa/controller/PersonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testjpa/out/production/testjpa/entity/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../testjpa/out/production/testjpa/entity/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testjpa/out/production/testjpa/entity/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../testjpa/out/production/testjpa/entity/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testjpa/src/MovieManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../testjpa/src/MovieManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testjpa/src/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../testjpa/src/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testjpa/testjpa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../testjpa/testjpa.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+            <state relative-caret-position="323">
+              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -46,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+            <state relative-caret-position="-410">
+              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -55,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/game/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+            <state relative-caret-position="19">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="38" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -115,32 +144,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Lab7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab7" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab7" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -196,11 +200,12 @@
       <workItem from="1555308751692" duration="7131000" />
       <workItem from="1555334052722" duration="1206000" />
       <workItem from="1555928183770" duration="26000" />
+      <workItem from="1557402108368" duration="703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20725000" />
+    <option name="totallyTimeSpent" value="21428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -279,12 +284,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Lab7.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/Edge.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -300,13 +301,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab7.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        <state relative-caret-position="-410">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -319,8 +324,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/game/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        <state relative-caret-position="19">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="38" selection-end-column="47" />
         </state>
       </provider>
     </entry>

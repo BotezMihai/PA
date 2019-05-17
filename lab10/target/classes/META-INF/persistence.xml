@@ -6,16 +6,13 @@
         <class>entity.Person</class>
         <class>entity.Movie</class>
         <properties>
+
+            <property name = "hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect" />
             <property name="hibernate.connection.url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
             <property name="hibernate.connection.driver_class" value="oracle.jdbc.driver.OracleDriver"/>
             <property name="hibernate.connection.username" value="student"/>
             <property name="hibernate.connection.password" value="STUDENT"/>
             <property name="hibernate.archive.autodetection" value="class"/>
-            <property name="hibernate.show_sql" value="true"/>
-            <property name="hibernate.format_sql" value="true"/>
-            <property name="hbm2ddl.auto" value="update"/>
-            <property name = "hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect" />
-
 
         </properties>
 

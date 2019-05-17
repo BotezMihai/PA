@@ -6,6 +6,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
+          <factory-entry name="MoviesPU" />
           <factory-entry name="NewPersistenceUnit" />
         </datasource-mapping>
         <naming-strategy-map />
@@ -26,8 +27,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="JPA 2.0-2.0" level="project" />
-    <orderEntry type="library" name="Hibernate 5.4.2-5.4.2" level="project" />
-    <orderEntry type="library" name="ojdbc10" level="project" />
+    <orderEntry type="library" exported="" name="JPA 2.0-2.0" level="project" />
+    <orderEntry type="library" exported="" name="Hibernate 5.4.2-5.4.2" level="project" />
+    <orderEntry type="library" exported="" name="ojdbc10" level="project" />
   </component>
 </module>

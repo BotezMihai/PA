@@ -64,8 +64,4 @@ public class PersonController {
         }
     }
 
-
-//    public String findById(int id) throws SQLException { ... }
-
-
 }

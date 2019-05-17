@@ -1,7 +1,9 @@
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import java.util.Scanner;
+
 import org.hibernate.Session;
+
 public class MovieManager {
     static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("MoviesPU");
 
@@ -25,15 +27,19 @@ public class MovieManager {
             }
         }
     }
+
     private void createPerson(String personName) {
-		//Implement this method
+        //Implement this method
     }
+
     private void createMovie(String movieName, String directorName) {
-		//Implement this method
+        //Implement this method
     }
+
     private void listMovies(String directorName) {
-		//Implement this method
+        //Implement this method
     }
+
     public static void main(String args[]) {
         new MovieManager().run();
     }

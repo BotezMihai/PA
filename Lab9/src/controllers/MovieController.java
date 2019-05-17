@@ -71,7 +71,7 @@ public class MovieController {
     public void populate() throws SQLException {
         Faker faker = new Faker();
         int entrys = 100;
-        while (entrys > 0){
+        while (entrys > 0) {
             create(faker.name().firstName() + " " + faker.name().lastName(), entrys);
             entrys -= 1;
         }

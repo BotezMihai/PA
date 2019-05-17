@@ -9,9 +9,11 @@ import java.util.List;
 
 public class PersonController {
     private EntityManagerFactory emf;
+
     public PersonController(EntityManagerFactory emf) {
         this.emf = emf;
     }
+
     public void create(Person person) {
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
@@ -19,6 +21,7 @@ public class PersonController {
         em.getTransaction().commit();
         em.close();
     }
+
     public Person findByName(String personName) {
         EntityManager em = emf.createEntityManager();
         Query query = em.createQuery("select t from Person t where t.name like :name");
