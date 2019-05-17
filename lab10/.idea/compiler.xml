@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lab10" />
+        <module name="javafaker" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="javafaker" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
