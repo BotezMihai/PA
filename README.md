@@ -1,3 +1,2 @@
 # PA
-# Aici punem tot ce tine de PA.
-Test
+# Laboratoarele pentru materia Programare Avansata, anul II, FII
